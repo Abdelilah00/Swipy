@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_my_profile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="@string/menu_my_profile" />
+        <item
+            android:id="@+id/nav_my_backpack"
+            android:icon="@drawable/ic_my_book_black_24dp"
+            android:title="@string/menu_my_backpack" />
+        <item
+            android:id="@+id/nav_all_books"
+            android:icon="@drawable/ic_all_book_black_24dp"
+            android:title="@string/menu_all_books" />
+        <item
+            android:id="@+id/nav_categories"
+            android:icon="@drawable/ic_filter_list_black_24dp"
+            android:title="@string/menu_categories" />
+        <item
+            android:id="@+id/nav_carts"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:title="@string/menu_my_carts" />
+        <item
+            android:id="@+id/nav_exchange"
+            android:icon="@drawable/ic_restaurant_menu_black_24dp"
+            android:title="@string/menu_exchange" />
+
+
+    </group>
+
+    <item android:title="@string/menu_communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_contact" />
+            <item
+                android:icon="@drawable/ic_assignment_return_black_24dp"
+                android:title="@string/menu_logout" />
+        </menu>
+    </item>
+
+</menu>
